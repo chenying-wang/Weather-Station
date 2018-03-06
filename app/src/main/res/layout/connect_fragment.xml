@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/connect_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start">
+
+    <Switch
+        android:id="@+id/connect_switch"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textAlignment="viewStart"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/connect_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp"/>
+
+</RelativeLayout>

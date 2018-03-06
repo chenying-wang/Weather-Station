@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/data_pressure_anchor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scrollbars="none" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:paddingTop="36dp"
+        android:gravity="start|center_vertical">
+
+        <ImageView
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            android:layout_marginStart="36dp"
+            android:src="@mipmap/ic_pres"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+
+            <LinearLayout
+                android:layout_width="168dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="36dp"
+                android:orientation="vertical"
+                android:gravity="start|center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/textSecondary"
+                    android:text="@string/data_current"/>
+
+                <TextView
+                    android:id="@+id/data_pressure"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="34sp"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textColored" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textSize="20sp"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/textSecondary"
+                    android:text="@string/data_average"/>
+
+                <TextView
+                    android:id="@+id/data_average_pressure"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="34sp"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/textColored" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:paddingTop="8dp"
+        android:gravity="start|top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="start|center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:textSize="14sp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/textSecondary"
+                android:text="@string/data_history" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/data_pressure_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/divider"
+            android:dividerHeight="1dp"
+            android:scrollbars="none" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">ARM气象站</string>
+
+    <string name="nav_connect">连接</string>
+    <string name="nav_data">数据</string>
+    <string name="nav_settings">设置</string>
+    <string name="nav_about">关于</string>
+
+    <string name="on">开启</string>
+    <string name="off">关闭</string>
+    <string name="connect_to">连接到</string>
+    <string name="disconnect">断开</string>
+    <string name="unknown_device">未知设备</string>
+    <string name="connected">已连接</string>
+
+    <string name="discovering">正在发现</string>
+    <string name="bluetooth_not_found">未找到蓝牙设备</string>
+    <string name="open_bluetooth_first">请打开蓝牙</string>
+    <string name="start_discovery_failed">启动发现失败</string>
+    <string name="discovery_finished">发现结束</string>
+
+    <string name="data_temp">温度</string>
+    <string name="data_hum">湿度</string>
+    <string name="data_pres">气压</string>
+    <string name="data_acc">加速度</string>
+    <string name="data_gyro">角速度</string>
+    <string name="data_mag">磁场</string>
+
+    <string name="data_current">当前</string>
+    <string name="data_average">平均</string>
+    <string name="data_history">历史</string>
+</resources>

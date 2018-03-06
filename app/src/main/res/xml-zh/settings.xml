@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<settings>
+
+    <setting>
+
+        <id>1000</id>
+        <name>语言</name>
+        <default_value>1001</default_value>
+
+        <options>
+            <option>
+                <id>1001</id>
+                <name>默认</name>
+            </option>
+            <option>
+                <id>1002</id>
+                <name>中文</name>
+            </option>
+            <option>
+                <id>1003</id>
+                <name>English - 英文</name>
+            </option>
+        </options>
+
+    </setting>
+
+    <setting>
+
+        <id>2000</id>
+        <name>温度单位</name>
+        <default_value>2001</default_value>
+
+        <options>
+            <option>
+                <id>2001</id>
+                <name>°C - 摄氏温标</name>
+            </option>
+            <option>
+                <id>2002</id>
+                <name>°F - 华氏温标</name>
+            </option>
+        </options>
+
+    </setting>
+
+    <setting>
+
+        <id>3000</id>
+        <name>湿度单位</name>
+        <default_value>3001</default_value>
+
+        <options>
+            <option>
+                <id>3001</id>
+                <name>% - 相对湿度</name>
+            </option>
+            <option>
+                <id>3002</id>
+                <name>g/m³ - 绝对湿度(大约)</name>
+            </option>
+        </options>
+
+    </setting>
+
+    <setting>
+
+        <id>4000</id>
+        <name>气压单位</name>
+        <default_value>4001</default_value>
+
+        <options>
+            <option>
+                <id>4001</id>
+                <name>hPa - 百帕</name>
+            </option>
+            <option>
+                <id>4002</id>
+                <name>mmHg - 毫米汞柱</name>
+            </option>
+        </options>
+
+    </setting>
+
+    <setting>
+
+        <id>5000</id>
+        <name>历史记录数量</name>
+        <default_value>5001</default_value>
+
+        <options>
+            <option>
+                <id>5001</id>
+                <name>5</name>
+            </option>
+            <option>
+                <id>5002</id>
+                <name>10</name>
+            </option>
+            <option>
+                <id>5003</id>
+                <name>15</name>
+            </option>
+            <option>
+                <id>5004</id>
+                <name>20</name>
+            </option>
+        </options>
+
+    </setting>
+
+    <setting>
+
+        <id>6000</id>
+        <name>立方体显示模式</name>
+        <default_value>6001</default_value>
+
+        <options>
+            <option>
+                <id>6001</id>
+                <name>旋转</name>
+            </option>
+            <option>
+                <id>6002</id>
+                <name>颜色</name>
+            </option>
+        </options>
+
+    </setting>
+
+</settings>

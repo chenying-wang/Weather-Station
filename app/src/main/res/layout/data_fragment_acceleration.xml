@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/acc_glview"
+            android:layout_width="144dp"
+            android:layout_height="144dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:paddingTop="8dp"
+        android:gravity="start|top"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:gravity="start|center_vertical">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="0dp"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:textColor="@color/textWhite"
+                android:background="@color/colorPrimary"
+                android:text="X" />
+
+            <TextView
+                android:id="@+id/data_acceleration_x"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginStart="72dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="16sp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/textPrimary"
+                android:text="0.1" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:gravity="start|center_vertical">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="0dp"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:textColor="@color/textWhite"
+                android:background="@color/colorPrimary"
+                android:text="Y" />
+
+            <TextView
+                android:id="@+id/data_acceleration_y"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginStart="72dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="16sp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/textPrimary"
+                android:text="0.1" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:gravity="start|center_vertical">
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="0dp"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:textColor="@color/textWhite"
+                android:background="@color/colorPrimary"
+                android:text="Z" />
+
+            <TextView
+                android:id="@+id/data_acceleration_z"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginStart="72dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="16sp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/textPrimary"
+                android:text="0.1" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

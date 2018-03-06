@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<settings>
+
+    <setting>
+
+        <id>1000</id>
+        <name>Language</name>
+        <default_value>1001</default_value>
+
+        <options>
+            <option>
+                <id>1001</id>
+                <name>Default</name>
+            </option>
+            <option>
+                <id>1002</id>
+                <name>中文 - Chinese, Simplified</name>
+            </option>
+            <option>
+                <id>1003</id>
+                <name>English</name>
+            </option>
+        </options>
+
+    </setting>
+
+    <setting>
+
+        <id>2000</id>
+        <name>Temperature Unit</name>
+        <default_value>2001</default_value>
+
+        <options>
+            <option>
+                <id>2001</id>
+                <name>°C - Celsius scale</name>
+            </option>
+            <option>
+                <id>2002</id>
+                <name>°F - Fahrenheit scale</name>
+            </option>
+        </options>
+
+    </setting>
+
+    <setting>
+
+        <id>3000</id>
+        <name>Humidity Unit</name>
+        <default_value>3001</default_value>
+
+        <options>
+            <option>
+                <id>3001</id>
+                <name>% - Relative humidity</name>
+            </option>
+            <option>
+                <id>3002</id>
+                <name>g/m³ - Absolute humidity(approx.)</name>
+            </option>
+        </options>
+
+    </setting>
+
+    <setting>
+
+        <id>4000</id>
+        <name>Pressure Unit</name>
+        <default_value>4001</default_value>
+
+        <options>
+            <option>
+                <id>4001</id>
+                <name>hPa - Hundred Pascal</name>
+            </option>
+            <option>
+                <id>4002</id>
+                <name>mmHg - Millimeter of mercury</name>
+            </option>
+        </options>
+
+    </setting>
+
+    <setting>
+
+        <id>5000</id>
+        <name>Number of History Records</name>
+        <default_value>5001</default_value>
+
+        <options>
+            <option>
+                <id>5001</id>
+                <name>5</name>
+            </option>
+            <option>
+                <id>5002</id>
+                <name>10</name>
+            </option>
+            <option>
+                <id>5003</id>
+                <name>15</name>
+            </option>
+            <option>
+                <id>5004</id>
+                <name>20</name>
+            </option>
+        </options>
+
+    </setting>
+
+    <setting>
+
+        <id>6000</id>
+        <name>Mode of Cube</name>
+        <default_value>6001</default_value>
+
+        <options>
+            <option>
+                <id>6001</id>
+                <name>Rotation</name>
+            </option>
+            <option>
+                <id>6002</id>
+                <name>Color</name>
+            </option>
+        </options>
+
+    </setting>
+
+</settings>
